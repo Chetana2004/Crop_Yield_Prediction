@@ -47,3 +47,44 @@ Installation:
 4. Run the Flask application: python app.py
 
 5. Open your web browser and navigate to http://127.0.0.1:5000/.
+
+Usage
+
+1. Open the app and navigate to the Predict Yield section.
+2. Enter the required information:
+   - Year
+   - Average Rainfall (in mm)
+   - Pesticide usage (in tonnes)
+   - Average Temperature (in °C)
+   - Area (Country)
+   - Crop
+3.Click the Predict button.
+4.The predicted crop yield will be displayed on the screen.
+
+Model Information
+
+The app uses a Decision Tree Regressor model, which was trained on historical crop yield data. Environmental and geographical factors such as rainfall, pesticide usage, and temperature are also included in the prediction model.
+
+Input Features: Year, Average Rainfall, Pesticides, Average Temperature, Area, Crop.
+Output: Crop Yield (in hg/ha).
+The trained model files (dtr.pkl, preprocessor.pkl) are loaded when the Flask app runs.
+
+Screenshots
+Home Page:
+
+Prediction Form:
+
+Prediction Result:
+
+Contributing
+
+Contributions are welcome! To contribute:
+
+Fork the repository.
+Create a feature branch.
+Commit your changes.
+Submit a pull request.
+
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
