@@ -9,8 +9,6 @@ Table of Contents
 4. Setup Instructions
 5. Usage
 6. Model Information
-7. Screenshots
-8. Contributing
 
 
 Introduction
@@ -68,20 +66,4 @@ The app uses a Decision Tree Regressor model, which was trained on historical cr
 Input Features: Year, Average Rainfall, Pesticides, Average Temperature, Area, Crop.
 Output: Crop Yield (in hg/ha).
 The trained model files (dtr.pkl, preprocessor.pkl) are loaded when the Flask app runs.
-
-Screenshots
-Home Page:
-
-Prediction Form:
-
-Prediction Result:
-
-Contributing
-
-Contributions are welcome! To contribute:
-
-Fork the repository.
-Create a feature branch.
-Commit your changes.
-Submit a pull request.
 
