@@ -11,7 +11,7 @@ Table of Contents
 6. Model Information
 7. Screenshots
 8. Contributing
-9. License
+
 
 Introduction
 
@@ -85,6 +85,3 @@ Create a feature branch.
 Commit your changes.
 Submit a pull request.
 
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
